@@ -8,8 +8,8 @@ form.addEventListener('submit', (e) =>{
     if(comentario.value.length >200){
         messages.push('El comentario no puede superar los 200 caracteres.')
     }
-    if(comentario.value.length =0){
-        messages.push('Se necesita ingresar un comentario.')
+    if(comentario.value.length <= 15){
+        messages.push('Se necesita ingresar un comentario un poco más largo.')
     }
     if (messages.length > 0){
         e.preventDefault()
