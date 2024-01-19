@@ -1,0 +1,214 @@
+.main_logo{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel{
+    width: 100%;
+    height: 30%;
+}
+
+.nav-bar{
+background-color: aquamarine;
+
+}
+
+.horizontal-card{
+    background-color: bisque;
+}
+
+.cards-masaoka{
+  background-color: #fff;
+}
+.cards-pero{
+  background-color: #fff;
+}
+.cards-message{
+  background-color: #fff;
+}
+
+
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: azure;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  height: 100%;
+  width: 100%;
+} 
+
+.comment{
+    text-align: center;
+}
+
+.field{
+  text-align: center;
+}
+
+.section-comment{
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.img-face{
+    width: 50px;
+    height: 50px;
+    margin: 1px 1px 10px 10px;
+}
+
+.img-insta{
+    width: 50px;
+    height: 50px;
+    margin: 1px 1px 10px 10px;
+}
+
+.img-x{
+    width: 50px;
+    height: 50px;
+    margin: 1px 1px 10px 10px;
+}
+
+.redes-follow{
+    align-items: end;
+}
+
+.comentario-final{
+width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+
+
+.section-cards{
+  background-color: bisque;
+}
+
+
+.email{
+width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:gainsboro;
+}
+
+.lname{
+width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:gainsboro;
+}
+.fname{
+width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:gainsboro;
+}
+
+.passwd{
+width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:gainsboro;
+}
+
+.submit{
+width: 60%;
+  background-color:steelblue;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset{
+width: 60%;
+  background-color:steelblue;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.title{
+  text-align: center;
+}
+
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}

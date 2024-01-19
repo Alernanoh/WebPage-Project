@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras en Toei</title>
+    <link href="CSS/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div>
+        <img src="images/toeilogo.webp" alt="Toei logo" height="150">
+         <h1>Ingresa tu información para suscribirte a nuestro servicio.</h1> 
+        <p>Disfruta de nuestros trabajos que han cautivado a muchas personas
+          alrededor del mundo</p>
+        </div>
+    </header>
+    <!--Barra de navegación-->
+    <nav class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="peliculas.html">Películas</a>
+      <a href="anime.html">Series</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="registro.html">Registro</a>
+      <a href="compras.html">Suscribirse</a>
+    </nav>
+  <section>
+   <h2 class="title">Ingrese sus datos para la suscripción</h2> 
+<form action="registrobuys.php" method="post" id="buyForm">
+  <fieldset class="comment">
+<label for="fname">Nombre</label><br>
+<input type="text" id="fname" name="buyname" placeholder="José" required class="fname"><br>
+
+<label for="lname"> Apellido</label><br>
+<input type="text" id="lname" name="buylname" placeholder="Fernandez" required class="lname"><br>
+
+
+<label for="email">Correo Electrónico</label><br>
+<input type="email" id="email"  name="buyemail" placeholder="andrefernando@gmail.com" required class="email"><br>
+
+
+<label for="creditCard">Tarjeta de crédito</label><br>
+<input type="text" id="creditCard" name="creditCard"  placeholder="295027494291" class="passwd" required> <br>
+
+<label for="creditCode">Código CVV</label><br>
+<input type="text" id="creditCode" name="creditCode" placeholder="***" class="passwd" required>
+   <div id="error" class="error"></div>
+</fieldset>
+<br>
+<fieldset class="field">
+<input type="submit" class="submit" value="Suscribirse">
+<input type="reset" class="reset" value="Limpiar">
+</fieldset>
+</form>
+  </section>
+
+      
+    <footer>
+      <p>&copy; Toei Animation Co. All rights reserved</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
